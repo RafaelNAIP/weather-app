@@ -1,22 +1,11 @@
 <div class="total-container">
   <div class="weather-container">
     <div class="weather-left-container">
-      <div class="input-container">
-        <img src="../assets//search-icon.png" alt="image" class="input-search-icon">
-        <mat-form-field class="search-form-field">
-          <mat-label style="display: flex; align-items: center;">Search for places ...</mat-label>
-          <input matInput type="text">
-        </mat-form-field>
-      </div>
-      <img src="../assets/sun-with-clouds.png" alt="image" class="weather-type-image-left-container" />
-      <div class="weather-day-info">
-        <h2>12°C</h2>
-        <p>Monday, 16:00</p>
-      </div>
-      <a>Mostly cloudy</a>
-      <a>Rain - 30%</a>
+      <app-weather-left-infos-container></app-weather-left-infos-container>
     </div>
-    <div class="weather-right-container"></div>
+    <div class="weather-right-container">
+      <app-weather-right-infos-container></app-weather-right-infos-container>
+    </div>
   </div>
 </div>
 

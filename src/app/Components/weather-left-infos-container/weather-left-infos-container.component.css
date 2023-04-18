@@ -1,0 +1,52 @@
+.weather-left-container input::placeholder {
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.weather-type-image-left-container {
+    height: 200px;
+    width: 200px;
+    margin-top: 30px
+}
+
+.input-search-icon {
+    height: 18px;
+    width: 18px;
+    margin-bottom: 10px;
+}
+
+.weather-day-info {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #F6F6F7;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.weather-day-info h2 {
+    font-size: 60px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.weather-day-info p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.weather-left-aditional-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-left-aditional-info a {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600px;
+}

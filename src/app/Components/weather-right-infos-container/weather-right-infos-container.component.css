@@ -1,0 +1,28 @@
+.right-container-top-bar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-container-top-bar h2 {
+    margin: 0;
+}
+
+.right-container-top-bar-buttons-container {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-container-top-bar-buttons-container button {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+}

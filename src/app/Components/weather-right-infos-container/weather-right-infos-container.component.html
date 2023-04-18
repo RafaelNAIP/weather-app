@@ -1,0 +1,10 @@
+<div class="right-container-top-bar">
+    <h2>03/04/2023</h2>
+    <div class="right-container-top-bar-buttons-container">
+        <button>°C</button>
+        <button>°F</button>
+    </div>  
+</div>
+<mat-grid-list cols="3" rowHeight="1:1">
+    <mat-grid-tile *ngFor="let card of cards">{{ card }}</mat-grid-tile>
+</mat-grid-list>
