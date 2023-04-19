@@ -26,3 +26,122 @@
     font-size: 15px;
     font-weight: 600;
 }
+
+.uv-index-card {
+    display: flex;
+    align-items: center;
+    height: 196px;
+    width: 192px;
+}
+
+.uv-index-card h2 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.mat-mdc-card-title {
+    font-size: 15px;
+    font-weight: 400;
+    color: #A4A6AC;
+}
+
+.wind-status-card {
+    display: flex;
+    align-items: center;
+    height: 196px;
+    width: 192px;
+}
+
+.wind-status-speed-container {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.wind-status-speed-container a {
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.wind-status-card h2 {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.wind-status-direction-text {
+    font-weight: 500;
+}
+
+.sunrise-sunset-card {
+    display: flex;
+    align-items: center;
+    height: 196px;
+    width: 192px; 
+}
+
+.sunrise-sunset-hour-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sunrise-sunset-hour-container h4 {
+    margin: 0;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.humidity-card {
+    display: flex;
+    align-items: center;
+    height: 196px;
+    width: 192px;
+}
+
+.humidity-card h2 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.humidity-card a {
+   font-weight: 500;
+   margin-left: 6px;
+}
+
+.visibility-card {
+    display: flex;
+    align-items: center;
+    height: 196px;
+    width: 192px;
+}
+
+.visibility-card h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.visibility-card p {
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.air-quality-card {
+    display: flex;
+    align-items: center;
+    height: 196px;
+    width: 192px; 
+}
+
+.air-quality-card h2 {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.air-quality-card a {
+    font-weight: 500;
+    margin-left: 6px;
+}

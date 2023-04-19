@@ -9,6 +9,8 @@ import { WeatherLeftInfosContainerComponent } from './Components/weather-left-in
 import { WeatherRightInfosContainerComponent } from './Components/weather-right-infos-container/weather-right-infos-container.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { WeatherCardInfoComponent } from './weather-card-info/weather-card-info.component';
+import {MatCardModule} from '@angular/material/card';
+
 
 @NgModule({
   declarations: [
@@ -23,6 +25,7 @@ import { WeatherCardInfoComponent } from './weather-card-info/weather-card-info.
     BrowserAnimationsModule,
     MatInputModule,
     MatGridListModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

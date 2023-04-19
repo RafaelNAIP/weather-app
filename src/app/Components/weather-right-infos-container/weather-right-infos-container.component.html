@@ -5,6 +5,82 @@
         <button>°F</button>
     </div>  
 </div>
-<mat-grid-list cols="3" rowHeight="1:1">
-    <mat-grid-tile *ngFor="let card of cards">{{ card }}</mat-grid-tile>
+<mat-grid-list cols="3" rowHeight="1:1" style="margin-top: 100px;">
+    <mat-grid-tile>
+        <mat-card class="uv-index-card">
+            <mat-card-header>
+              <mat-card-title>UV Index</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <h2>5</h2>
+            </mat-card-content>
+          </mat-card>          
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card class="wind-status-card">
+            <mat-card-header>
+              <mat-card-title>Wind Status</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <div class="wind-status-speed-container">
+                    <h2>7.70</h2>
+                    <a>km/h</a>
+                </div>
+                <a class="wind-status-direction-text">WSW</a>
+            </mat-card-content>
+          </mat-card>          
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card class="sunrise-sunset-card">
+            <mat-card-header>
+              <mat-card-title>Sunrise & Sunset</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <div class="sunrise-sunset-hour-container">
+                    <img src="../../../assets/sunrise-icon.png" style="height: 35px; width: 35px;" />
+                    <h4>6:35 AM</h4>
+                </div>
+                <div class="sunrise-sunset-hour-container">
+                  <img src="../../../assets/sunrise-icon.png" style="height: 35px; width: 35px; transform: scaleY(-1);" />
+                  <h4>5:42 PM</h4>
+              </div>
+            </mat-card-content>
+          </mat-card>          
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card class="humidity-card">
+            <mat-card-header>
+              <mat-card-title>Humidity</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <h2>12%</h2>
+              <a>Normal</a>
+            </mat-card-content>
+          </mat-card>          
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card class="visibility-card">
+            <mat-card-header>
+              <mat-card-title>Visibility</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <div class="wind-status-speed-container">
+                <h2>5.2</h2>
+                <a>km</a>
+              </div>
+              <p>Average</p>
+            </mat-card-content>
+          </mat-card>          
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card class="air-quality-card">
+            <mat-card-header>
+              <mat-card-title>Air Quality</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <h2>105</h2>
+              <a>Unhealthy</a>
+            </mat-card-content>
+          </mat-card>          
+    </mat-grid-tile>
 </mat-grid-list>
